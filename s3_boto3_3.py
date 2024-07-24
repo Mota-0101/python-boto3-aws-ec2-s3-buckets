@@ -1,5 +1,5 @@
 import boto3
-# Criando sessão:
+# Criando sessão e especificando o profile adm:
 sessao = boto3.Session(profile_name='------')
 cliente_s3 = sessao.client('s3') # criando cliente, a partir da sessão.
 # Criando variável, para armazenar o nome do bucket:
