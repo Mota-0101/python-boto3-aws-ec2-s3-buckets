@@ -9,7 +9,8 @@ try:
     # Criando o bucket, a partir do cliente:
     resposta_bucket = cliente_s3.create_bucket(
         Bucket=nome_bucket, #1º parâmetro: Atribuindo o nome da variável criada acima, para indicar nome do bucket.
-        CreateBucketConfiguration={ #2º parâmetro: indicando a localização onde será criado o bucket. 
+        #2º parâmetro: indicando a localização onde será criado o bucket. 
+        CreateBucketConfiguration={ 
             'LocationConstraint': 'us-east-2'
         }
     )
