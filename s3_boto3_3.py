@@ -1,6 +1,6 @@
 import boto3
 # Criando sessão:
-sessao = boto3.Session(profile_name='automacao-curso')
+sessao = boto3.Session(profile_name='------')
 cliente_s3 = sessao.client('s3') # criando cliente, a partir da sessão.
 # Criando variável, para armazenar o nome do bucket:
 nome_bucket = 'pythot-bucket-1'

@@ -1,7 +1,7 @@
 # Importando o Boto3
 import boto3
 # Criando a sessão e especificando o profile adm.
-sessao = boto3.Session(profile_name="automacao-curso")
+sessao = boto3.Session(profile_name="-----")
 # Cliando o cliente s3 a partir da sessão:  
 cliente_s3 = sessao.client('s3')
 # Cliando o cliente EC2 a partir da sessão:
